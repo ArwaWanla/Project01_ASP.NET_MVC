@@ -1,0 +1,17 @@
+﻿@{
+    var phone = (PhoneModel)ViewData["phone"];
+
+
+    @*var phoneDetails = (SmartphoneModel)ViewData["Phone_Details"];*@}
+
+<div class="card">
+    <div class="card-header">
+        <p class="card-text">@phone.Name</p>
+    </div>
+    <div class="card-body" >
+        <p>@phone.details</p>
+        
+    </div>
+    <img src="@phone.Image" alt="" style="width:300px;height:300px;">
+
+</div>

@@ -1,0 +1,19 @@
+﻿@{
+
+    var brandList = (List<BrandModel>)ViewData["Brands"];
+}
+
+<div class="card" style="float: left; margin-left: 10px; margin-left: 10px; margin-right: 10px; margin-bottom: 20px;">
+    
+    @foreach (var b in brandList)
+    {
+        <img src=@b.Logo style="position: relative; width: 200px; height: 200px; overflow: hidden; border-radius: 50%;">
+        <div class="card-body">
+            <h4>@b.Name</h4>
+            <p class="card-text">
+             
+                @b.Products                
+            </p>
+        </div>
+    }
+</div>

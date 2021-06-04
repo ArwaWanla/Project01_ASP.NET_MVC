@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{36BFCD02-10AE-4138-8087-5EBC0CE14B8D}|Default">
+  <MonoDevelop.Ide.ItemProperties.phoneStore PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="phoneStore/Views/Brands/Index.cshtml">
+    <Files>
+      <File FileName="phoneStore/Controllers/BrandsController.cs" Line="20" Column="163" />
+      <File FileName="phoneStore/Views/Shared/_Layout.cshtml" Line="31" Column="93" />
+      <File FileName="phoneStore/Models/BrandModel.cs" Line="9" Column="16" />
+      <File FileName="phoneStore/Views/Brand/Index.cshtml" Line="6" Column="117" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="phoneStore" expanded="True">
+            <Node name="phoneStore" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Brands" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Phones" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
